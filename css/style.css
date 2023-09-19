@@ -1,0 +1,255 @@
+
+/* Estilo del index */
+
+body{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+}
+
+.welcome{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 200%
+
+}
+
+.line{
+    background-color: rgb(43, 43, 43);
+}
+
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+nav>ul>li {
+    flex-grow: 1;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    /* background-color: lightgray; */
+    text-align: center;
+    color: #000000;
+    display: block;
+    padding: 1em;
+    font-size: 150%;
+}
+
+nav>ul>li>a:hover {
+    background-color: rgb(133, 165, 252);
+}
+
+.img{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Estilo del generador de numeros */
+
+.result {
+    white-space: pre; /* Conserva el formato de espaciado */
+    font-size: 150%; /* Tamaño de fuente más grande */
+    text-align: center;
+    font-family: cursive;
+
+}
+
+/* Estilo general */
+
+.titulo{
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.cuerpo-code{
+    text-align: center;
+    font-size: 190%;
+    
+}
+
+.generar{
+    text-align: center;
+    font-size: 180%;
+    border-radius: 20%;
+    border-style: none;
+    background-color: #000000;
+    color: white;
+    
+}
+
+.generar:hover{
+    background-color:rgb(133, 165, 252);
+}
+
+.center{
+    text-align: center;
+}
+
+/* Fin estilo general */
+
+.text{
+    font-size: 100%;
+}
+
+.line2{
+    background-color: rgb(43, 43, 43);
+}
+
+    /* Estilo general */
+.regresar{
+    text-align: center;
+    font-size: 150%;
+    border-style: none;
+    background-color: rgb(227, 227, 227);
+    font-family: fantasy;
+}
+
+.regresar:hover{
+    background-color:rgb(133, 165, 252);
+} 
+
+    /* Fin estilo general */
+
+
+/* Estilo de revertir una palabra */
+
+
+
+.titulo-revertir{
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.text2{
+    font-size: 100%;
+    text-align: center;
+}  
+
+.line3{
+    background-color: rgb(43, 43, 43);
+}
+
+
+.revertir{
+    text-align: center;
+    font-size: 120%;
+    border-radius: 20%;
+    border-style: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
+}
+
+.revertir:hover{
+    background-color:rgb(133, 165, 252);
+}
+
+
+.result-revertir{
+    white-space: pre; /* Conserva el formato de espaciado */
+    font-size: 150%; /* Tamaño de fuente más grande */
+    text-align: center;
+    font-family: cursive;
+}
+
+
+    /* Estilo de fibonacci */
+
+    .calcular{
+        text-align: center;
+        font-size: 120%;
+        border-radius: 20%;
+        border-style: none;
+        background-color: rgb(43, 43, 43);
+        color: white;
+        
+    }
+    
+    .calcular:hover{
+        background-color:rgb(133, 165, 252);
+    }
+
+    .resultado{
+        white-space: pre; /* Conserva el formato de espaciado */
+    font-size: 150%; /* Tamaño de fuente más grande */
+    text-align: center;
+    font-family: cursive;
+    }
+
+
+        /* Estilo de palindromo */
+
+        .verificar{
+            text-align: center;
+            font-size: 120%;
+            border-radius: 20%;
+            border-style: none;
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+
+        .verificar:hover{
+            background-color:rgb(133, 165, 252);
+        }
+
+        .ejemplo{
+            white-space: pre; /* Conserva el formato de espaciado */
+    font-size: 150%; /* Tamaño de fuente más grande */
+    font-family: cursive;
+        }
+
+
+            /* Estilo de fecha */
+
+        .buscar{
+            text-align: center;
+            font-size: 120%;
+            border-radius: 20%;
+            border-style: none;
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+        .buscar:hover{
+            background-color:rgb(133, 165, 252);
+        }
+
+
+            /* Estilo de las imagenes */
+
+            .galeria {
+                display: flex;
+                flex-direction: row;
+            }
+    
+            .galeria img {
+                height: 200px;
+                width: 200px;
+                border-radius: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            .visor {
+                height: 500px;
+                width: 500px;
+            }
+
+            .imggrande{
+                text-align: center;
+            }

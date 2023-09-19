@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secuencia de Fibonacci</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <section style="background-color: rgb(227, 227, 227);"> <br>
+    <section class="titulo">
+    <h1>Secuencia de Fibonacci</h1>
+    </section>
+    <section >
+        <li style="text-align: end;"> <a href="index.html"> <button class="regresar" onclick="index.html"> Regresar al incio ---- </button> </a> </li>
+    </section><br>
+    </section> <br>
+    <section class="line2"> <br><br></section> <br> <br>
+    
+    <!-- Agrega un formulario para ingresar el valor de n -->
+    <section class="cuerpo-code">
+    <form id="fibonacciForm">
+        <label for="nInput">Ingrese el valor de n:</label>
+        <input class="text2" type="number" id="nInput" min="1" step="1" value="10" required>
+        <button class="calcular" type="submit">--- Calcular Fibonacci ---</button>
+    </form>
+    </section>
+
+    <section class="ejemplo">
+        <p>
+            La secuencia de Fibonacci es una serie matemática infinita que comienza generalmente con los números 0 y 1, y a partir <br>
+             de esos dos números iniciales, cada término siguiente es la suma de los dos términos anteriores. La secuencia de Fibonacci se representa comúnmente como:
+
+            0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+        </p>
+    </section>
+    <!-- Mostrar los resultados aquí -->
+    <section class="resultado">
+    <div id="resultado"></div>
+    </section>
+
+
+    <script src="/scrip/fibonacci.js"></script>
+
+</body>
+</html>
